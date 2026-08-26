@@ -1,15 +1,4 @@
-(async()=>{
-  const imgs=[...document.querySelectorAll('img[src^="assets/"]')];
-  await Promise.all(imgs.map(async img=>{
-    const src=img.getAttribute('src');
-    try{
-      const r=await fetch(`${src}.b64`,{cache:'force-cache'});
-      if(!r.ok)return;
-      const b64=(await r.text()).trim();
-      img.src=`data:image/webp;base64,${b64}`;
-    }catch(e){}
-  }));
-})();
+const responsive=document.createElement('link');responsive.rel='stylesheet';responsive.href='responsive.css?v=6';document.head.appendChild(responsive);
 
 const data=[
 {role:'CAPTAIN / NAVIGATOR',ja:'アドニス',en:'ADONIS',desc:'私掠船プリンセス・ブルーアネモネ号の船長。温和で思慮深く慕われているがたまにずれている。離れ離れになってしまった妹の行方を探している。航海士としての腕は一流。'},
