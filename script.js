@@ -1,3 +1,16 @@
+(async()=>{
+  const imgs=[...document.querySelectorAll('img[src^="assets/"]')];
+  await Promise.all(imgs.map(async img=>{
+    const src=img.getAttribute('src');
+    try{
+      const r=await fetch(`${src}.b64`,{cache:'force-cache'});
+      if(!r.ok)return;
+      const b64=(await r.text()).trim();
+      img.src=`data:image/webp;base64,${b64}`;
+    }catch(e){}
+  }));
+})();
+
 const data=[
 {role:'CAPTAIN / NAVIGATOR',ja:'アドニス',en:'ADONIS',desc:'私掠船プリンセス・ブルーアネモネ号の船長。温和で思慮深く慕われているがたまにずれている。離れ離れになってしまった妹の行方を探している。航海士としての腕は一流。'},
 {role:'VICE CAPTAIN',ja:'ビル',en:'BILL',desc:'アドニスの海賊時代からの幼馴染で、彼の右腕。無口だが義理堅く、スラムから自身を救い出してくれたアドニスに忠誠を誓っている。'},
