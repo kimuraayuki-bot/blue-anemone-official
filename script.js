@@ -1,19 +1,3 @@
-const responsive=document.createElement('link');responsive.rel='stylesheet';responsive.href='responsive.css?v=8';document.head.appendChild(responsive);
-
-(async()=>{
-  const imgs=[...document.querySelectorAll('img[src^="assets/"]')];
-  await Promise.all(imgs.map(async img=>{
-    const src=img.getAttribute('src');
-    try{
-      const r=await fetch(`${src}.b64?v=8`,{cache:'no-cache'});
-      if(!r.ok)return;
-      const b64=(await r.text()).replace(/\s+/g,'');
-      const mime=b64.startsWith('/9j/')?'image/jpeg':b64.startsWith('iVBORw0KGgo')?'image/png':b64.startsWith('AAAAIGZ0eXBhdmlm')||b64.startsWith('AAAAHGZ0eXBhdmlm')?'image/avif':'image/webp';
-      img.src=`data:${mime};base64,${b64}`;
-    }catch(e){}
-  }));
-})();
-
 const data=[
 {role:'CAPTAIN / NAVIGATOR',ja:'アドニス',en:'ADONIS',desc:'私掠船プリンセス・ブルーアネモネ号の船長。温和で思慮深く慕われているがたまにずれている。離れ離れになってしまった妹の行方を探している。航海士としての腕は一流。'},
 {role:'VICE CAPTAIN',ja:'ビル',en:'BILL',desc:'アドニスの海賊時代からの幼馴染で、彼の右腕。無口だが義理堅く、スラムから自身を救い出してくれたアドニスに忠誠を誓っている。'},
