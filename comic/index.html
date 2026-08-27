@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>COMIC | 王女のブルーアネモネ号</title>
 <link rel="preload" as="image" href="/assets/header-logo.webp" fetchpriority="high">
-<link rel="preload" as="image" href="/assets/comic/page-001.jpg" fetchpriority="high">
+<link rel="preload" as="image" href="/assets/comic/page-001.webp" fetchpriority="high">
 <link rel="stylesheet" href="/comic/comic.css">
 </head>
 <body>
@@ -32,10 +32,10 @@ for (let i = 1; i <= pages; i += 1) {
   const page = String(i).padStart(3, "0");
   const figure = document.createElement("figure");
   const image = document.createElement("img");
-  image.src = `/assets/comic/page-${page}.jpg`;
+  image.src = `/assets/comic/page-${page}.webp`;
   image.alt = `王女のブルーアネモネ号 漫画 ${i}ページ`;
-  image.width = 1248;
-  image.height = 1758;
+  image.width = 1871;
+  image.height = 2636;
   image.decoding = "async";
   if (i === 1) {
     image.loading = "eager";

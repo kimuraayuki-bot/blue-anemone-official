@@ -1,254 +1,301 @@
-[
-  {
-    "name": "page-001.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 52915
-  },
-  {
-    "name": "page-002.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 67408
-  },
-  {
-    "name": "page-003.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 72437
-  },
-  {
-    "name": "page-004.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 73704
-  },
-  {
-    "name": "page-005.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 62159
-  },
-  {
-    "name": "page-006.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 60949
-  },
-  {
-    "name": "page-007.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 60679
-  },
-  {
-    "name": "page-008.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 37286
-  },
-  {
-    "name": "page-009.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 39523
-  },
-  {
-    "name": "page-010.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 31988
-  },
-  {
-    "name": "page-011.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 37877
-  },
-  {
-    "name": "page-012.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 35899
-  },
-  {
-    "name": "page-013.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 36732
-  },
-  {
-    "name": "page-014.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 36686
-  },
-  {
-    "name": "page-015.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 33325
-  },
-  {
-    "name": "page-016.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 30143
-  },
-  {
-    "name": "page-017.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 29209
-  },
-  {
-    "name": "page-018.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 53449
-  },
-  {
-    "name": "page-019.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 25179
-  },
-  {
-    "name": "page-020.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 33752
-  },
-  {
-    "name": "page-021.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 27949
-  },
-  {
-    "name": "page-022.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 36515
-  },
-  {
-    "name": "page-023.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 31716
-  },
-  {
-    "name": "page-024.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 28686
-  },
-  {
-    "name": "page-025.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 51022
-  },
-  {
-    "name": "page-026.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 48876
-  },
-  {
-    "name": "page-027.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 51482
-  },
-  {
-    "name": "page-028.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 52641
-  },
-  {
-    "name": "page-029.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 41606
-  },
-  {
-    "name": "page-030.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 46078
-  },
-  {
-    "name": "page-031.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 37569
-  },
-  {
-    "name": "page-032.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 46533
-  },
-  {
-    "name": "page-033.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 35803
-  },
-  {
-    "name": "page-034.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 40081
-  },
-  {
-    "name": "page-035.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 24270
-  },
-  {
-    "name": "page-036.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 39740
-  },
-  {
-    "name": "page-037.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 37381
-  },
-  {
-    "name": "page-038.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 39995
-  },
-  {
-    "name": "page-039.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 44150
-  },
-  {
-    "name": "page-040.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 39969
-  },
-  {
-    "name": "page-041.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 47082
-  },
-  {
-    "name": "page-042.jpg",
-    "width": 1248,
-    "height": 1758,
-    "bytes": 38175
-  }
-]
+{
+  "format": "webp",
+  "scale": 3.0,
+  "quality": 86,
+  "pages": [
+    {
+      "page": 1,
+      "name": "page-001.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 714956
+    },
+    {
+      "page": 2,
+      "name": "page-002.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 1085126
+    },
+    {
+      "page": 3,
+      "name": "page-003.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 1629232
+    },
+    {
+      "page": 4,
+      "name": "page-004.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 1192050
+    },
+    {
+      "page": 5,
+      "name": "page-005.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 642850
+    },
+    {
+      "page": 6,
+      "name": "page-006.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 578184
+    },
+    {
+      "page": 7,
+      "name": "page-007.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 867456
+    },
+    {
+      "page": 8,
+      "name": "page-008.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 667884
+    },
+    {
+      "page": 9,
+      "name": "page-009.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 955392
+    },
+    {
+      "page": 10,
+      "name": "page-010.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 393182
+    },
+    {
+      "page": 11,
+      "name": "page-011.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 519426
+    },
+    {
+      "page": 12,
+      "name": "page-012.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 389970
+    },
+    {
+      "page": 13,
+      "name": "page-013.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 366774
+    },
+    {
+      "page": 14,
+      "name": "page-014.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 436342
+    },
+    {
+      "page": 15,
+      "name": "page-015.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 382004
+    },
+    {
+      "page": 16,
+      "name": "page-016.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 385012
+    },
+    {
+      "page": 17,
+      "name": "page-017.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 303284
+    },
+    {
+      "page": 18,
+      "name": "page-018.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 636996
+    },
+    {
+      "page": 19,
+      "name": "page-019.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 315252
+    },
+    {
+      "page": 20,
+      "name": "page-020.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 477428
+    },
+    {
+      "page": 21,
+      "name": "page-021.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 425204
+    },
+    {
+      "page": 22,
+      "name": "page-022.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 403944
+    },
+    {
+      "page": 23,
+      "name": "page-023.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 329522
+    },
+    {
+      "page": 24,
+      "name": "page-024.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 227718
+    },
+    {
+      "page": 25,
+      "name": "page-025.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 444292
+    },
+    {
+      "page": 26,
+      "name": "page-026.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 418596
+    },
+    {
+      "page": 27,
+      "name": "page-027.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 628866
+    },
+    {
+      "page": 28,
+      "name": "page-028.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 531342
+    },
+    {
+      "page": 29,
+      "name": "page-029.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 409152
+    },
+    {
+      "page": 30,
+      "name": "page-030.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 414110
+    },
+    {
+      "page": 31,
+      "name": "page-031.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 327310
+    },
+    {
+      "page": 32,
+      "name": "page-032.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 472914
+    },
+    {
+      "page": 33,
+      "name": "page-033.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 282782
+    },
+    {
+      "page": 34,
+      "name": "page-034.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 361038
+    },
+    {
+      "page": 35,
+      "name": "page-035.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 150588
+    },
+    {
+      "page": 36,
+      "name": "page-036.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 383258
+    },
+    {
+      "page": 37,
+      "name": "page-037.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 345354
+    },
+    {
+      "page": 38,
+      "name": "page-038.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 383510
+    },
+    {
+      "page": 39,
+      "name": "page-039.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 440624
+    },
+    {
+      "page": 40,
+      "name": "page-040.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 403582
+    },
+    {
+      "page": 41,
+      "name": "page-041.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 548660
+    },
+    {
+      "page": 42,
+      "name": "page-042.webp",
+      "width": 1871,
+      "height": 2636,
+      "size": 351060
+    }
+  ]
+}
