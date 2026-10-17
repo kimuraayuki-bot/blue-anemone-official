@@ -1,0 +1,72 @@
+.concept-movie{
+  display:grid;
+  grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr);
+  gap:clamp(32px,5vw,76px);
+  align-items:center;
+  margin-top:104px;
+  padding-top:56px;
+  border-top:1px solid var(--line);
+}
+
+.concept-movie-heading .section-index{
+  margin:0 0 20px;
+}
+
+.concept-movie-heading h2{
+  margin:0;
+  color:var(--deep);
+  font-family:"Yu Mincho","Hiragino Mincho ProN",serif;
+  font-size:clamp(30px,3.1vw,48px);
+  font-weight:500;
+  line-height:1.45;
+}
+
+.concept-movie-heading h2 span{
+  color:var(--blue);
+  font-family:Arial,sans-serif;
+  font-size:.47em;
+  font-weight:700;
+  letter-spacing:.08em;
+}
+
+.concept-movie-player{
+  aspect-ratio:16 / 9;
+  overflow:hidden;
+  background:var(--deep);
+  border:1px solid #c7dbe4;
+}
+
+.concept-movie-player iframe{
+  display:block;
+  width:100%;
+  height:100%;
+  border:0;
+}
+
+.portals{
+  grid-template-columns:repeat(2,minmax(0,1fr));
+}
+
+@media(max-width:900px){
+  .concept-movie{
+    grid-template-columns:1fr;
+    gap:30px;
+    margin-top:68px;
+    padding-top:44px;
+  }
+
+  .portals{
+    grid-template-columns:1fr;
+  }
+}
+
+@media(max-width:600px){
+  .concept-movie{
+    margin-top:56px;
+    padding-top:36px;
+  }
+
+  .concept-movie-heading h2{
+    font-size:clamp(27px,8vw,38px);
+  }
+}
